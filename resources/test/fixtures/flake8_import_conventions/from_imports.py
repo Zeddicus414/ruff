@@ -3,6 +3,7 @@
 import xml.dom.minidom
 import xml.dom.minidom as wrong
 from xml.dom import minidom as wrong
+from xml.dom import minidom
 from xml.dom.minidom import parseString as wrong  # Ensure ICN001 throws on function import.
 from xml.dom.minidom import parseString
 from xml.dom.minidom import parse, parseString
